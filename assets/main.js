@@ -73,7 +73,7 @@
         }), Object.defineProperty(e, "__esModule", {
             value: !0
         })
-    }, re.nmd = e => (e.paths = [], e.children || (e.children = []), e), re.p = "/assets/", (() => {
+    }, re.nmd = e => (e.paths = [], e.children || (e.children = []), e), re.p = "assets/", (() => {
         var e = {
             179: 0
         };
