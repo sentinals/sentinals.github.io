@@ -50,7 +50,7 @@
                     },
                     empty: {
                         name: "Empty",
-                        displayPolar: "\n# Oso is deny-by-default, so an empty policy\n# means nobody can do anything. This system is\n# locked down.\n".trim(),
+                        displayPolar: "\n# themis is deny-by-default, so an empty policy\n# means nobody can do anything. This system is\n# locked down.\n".trim(),
                         polar: "allow(_, _, _) if false;",
                         users: {
                             "-": new c
@@ -107,7 +107,7 @@
             }
             const g = "rgb(45, 43, 85)";
             l.Z.comment.color = "#bc7ff5", s.Z.registerLanguage("ruby", i.Z);
-            const h = window.LEARN_MORE_URL || "https://docs.osohq.com/getting-started/quickstart.html",
+            const h = window.LEARN_MORE_URL || "https://docs.themishq.com/getting-started/quickstart.html",
                 y = e => a.createElement("h1", b({}, e, {
                     className: "jsx-2491313739 " + (e && null != e.className && e.className || "")
                 }), e.children, a.createElement(r.default, {
@@ -201,7 +201,7 @@
                 const [e, t] = (0, a.useState)("none"), o = f[e], i = Object.keys(f), p = i[i.indexOf(e) + 1], [b, R] = (0, a.useState)(Object.keys(o.users)[0]), [N, S] = (0, a.useState)(null);
                 (0, a.useEffect)((async () => {
                     Promise.all([n.e(991), n.e(880)]).then(n.bind(n, 5991)).then((e => {
-                        S((() => e.Oso))
+                        S((() => e.themis))
                     }))
                 }));
                 const C = o.users[b] || o.users[Object.keys(o.users)[0]],
@@ -217,7 +217,7 @@
                         }), e
                     }), [N]);
                 (0, a.useEffect)((() => {
-                    O && (O.clearRules(), O.loadStr(o.polar), window.oso = O, window.repos = u)
+                    O && (O.clearRules(), O.loadStr(o.polar), window.themis = O, window.repos = u)
                 }), [O, o]);
                 const [_, A] = (0, a.useState)(j);
                 (0, a.useEffect)((async () => {
@@ -237,10 +237,10 @@
                         minHeight: 500,
                         maxHeight: 500
                     },
-                    className: "jsx-1298411406 oso-web-demo"
+                    className: "jsx-1298411406 themis-web-demo"
                 }, a.createElement(r.default, {
                     id: "1298411406"
-                }, ['.oso-web-demo.jsx-1298411406{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-font-smoothing:antialiased;font-family:ui-sans-serif,system-ui,-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial, "Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji";}', ".policy-container.jsx-1298411406{color:rgb(229,231,235);border-radius:0.5rem;padding:1.5rem;padding-right:5rem;width:66.66%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}", ".policy-container.jsx-1298411406 h1{color:rgb(229,231,235);}", ".policy-selector.jsx-1298411406{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:1.25rem;}", ".next{background-color:rgb(59,130,246);}", ".next:hover{background-color:rgb(96,165,250);}", ".ml-3.jsx-1298411406{margin-left:0.75rem;}", ".pb-4.jsx-1298411406{padding-bottom:1rem;}", ".pb-2.jsx-1298411406{padding-bottom:0.5rem;}", ".code.jsx-1298411406{position:relative;overflow:hidden;}", ".code.jsx-1298411406 pre{overflow:auto;font-size:1rem;line-height:1.5rem;height:100%;}", '.code.jsx-1298411406 code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas, "Liberation Mono","Courier New",monospace;}', ".shadow.jsx-1298411406{position:absolute;left:0;right:0;bottom:0;height:60px;background:linear-gradient(#2d2b5500,#2d2b55);}", ".demo-app-container.jsx-1298411406{padding:1rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;border-radius:0 0.25rem 0.25rem 0;}", ".role-selector.jsx-1298411406{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-bottom:1rem;-webkit-box-pack:end;-webkit-justify-content:end;-ms-flex-pack:end;justify-content:end;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}", ".demo-app.jsx-1298411406{background:#fff;color:rgb(17,24,39);-webkit-flex:1;-ms-flex:1;flex:1;border-radius:0.5rem;border:1px solid rgb(209,213,219);margin-left:-4rem;box-shadow:rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.05) 0px 4px 6px -2px;}", ".demo-app-url-bar.jsx-1298411406{border-bottom:1px solid rgb(229,231,235);border-radius:0.5rem 0.5rem 0 0;padding:0.5rem;background-color:rgb(243,244,246);}", ".demo-app-url-bar.jsx-1298411406 div.jsx-1298411406{border-radius:2rem;background:white;padding:0.25rem 1rem;}", ".demo-app-inner.jsx-1298411406{padding:1rem;position:relative;}", ".sample-app-badge.jsx-1298411406{position:absolute;top:0;right:0;margin:1rem;font-size:0.75rem;line-height:1rem;color:rgb(107,114,128);padding:0.25rem 0.5rem;border:1px solid rgb(229,231,235);border-radius:0.25rem;}", ".no-repos.jsx-1298411406{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#888;}", "@media screen and (max-width:640px){.policy-container.jsx-1298411406{padding-right:1.5rem;width:100%;}.code.jsx-1298411406 pre{font-size:0.75rem;line-height:1rem;}.demo-app-container.jsx-1298411406{display:none;}}"]), a.createElement("div", {
+                }, ['.themis-web-demo.jsx-1298411406{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-font-smoothing:antialiased;font-family:ui-sans-serif,system-ui,-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial, "Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji";}', ".policy-container.jsx-1298411406{color:rgb(229,231,235);border-radius:0.5rem;padding:1.5rem;padding-right:5rem;width:66.66%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}", ".policy-container.jsx-1298411406 h1{color:rgb(229,231,235);}", ".policy-selector.jsx-1298411406{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:1.25rem;}", ".next{background-color:rgb(59,130,246);}", ".next:hover{background-color:rgb(96,165,250);}", ".ml-3.jsx-1298411406{margin-left:0.75rem;}", ".pb-4.jsx-1298411406{padding-bottom:1rem;}", ".pb-2.jsx-1298411406{padding-bottom:0.5rem;}", ".code.jsx-1298411406{position:relative;overflow:hidden;}", ".code.jsx-1298411406 pre{overflow:auto;font-size:1rem;line-height:1.5rem;height:100%;}", '.code.jsx-1298411406 code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas, "Liberation Mono","Courier New",monospace;}', ".shadow.jsx-1298411406{position:absolute;left:0;right:0;bottom:0;height:60px;background:linear-gradient(#2d2b5500,#2d2b55);}", ".demo-app-container.jsx-1298411406{padding:1rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;border-radius:0 0.25rem 0.25rem 0;}", ".role-selector.jsx-1298411406{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-bottom:1rem;-webkit-box-pack:end;-webkit-justify-content:end;-ms-flex-pack:end;justify-content:end;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}", ".demo-app.jsx-1298411406{background:#fff;color:rgb(17,24,39);-webkit-flex:1;-ms-flex:1;flex:1;border-radius:0.5rem;border:1px solid rgb(209,213,219);margin-left:-4rem;box-shadow:rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.05) 0px 4px 6px -2px;}", ".demo-app-url-bar.jsx-1298411406{border-bottom:1px solid rgb(229,231,235);border-radius:0.5rem 0.5rem 0 0;padding:0.5rem;background-color:rgb(243,244,246);}", ".demo-app-url-bar.jsx-1298411406 div.jsx-1298411406{border-radius:2rem;background:white;padding:0.25rem 1rem;}", ".demo-app-inner.jsx-1298411406{padding:1rem;position:relative;}", ".sample-app-badge.jsx-1298411406{position:absolute;top:0;right:0;margin:1rem;font-size:0.75rem;line-height:1rem;color:rgb(107,114,128);padding:0.25rem 0.5rem;border:1px solid rgb(229,231,235);border-radius:0.25rem;}", ".no-repos.jsx-1298411406{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#888;}", "@media screen and (max-width:640px){.policy-container.jsx-1298411406{padding-right:1.5rem;width:100%;}.code.jsx-1298411406 pre{font-size:0.75rem;line-height:1rem;}.demo-app-container.jsx-1298411406{display:none;}}"]), a.createElement("div", {
                     style: {
                         background: g
                     },
@@ -358,7 +358,7 @@
                 },
                 beForTheMakers: {
                     name: "Be for the makers",
-                    polar: "\n# Be for the makers\n\n**Developers will have an outsize impact on the\n21st century – if we help them succeed, we\nsucceed too.**\n\n- Make easy things easy, and impossible things\n  possible\n- Assume your user is lazy – shave down friction\n  everywhere. Related: see the [three great\n  virtues of a programmer][1]\n- Do what you think would get a developer to\n  become a card-carrying member of the Oso club\n  for life\n\n[1]: http://threevirtues.com/\n".trim()
+                    polar: "\n# Be for the makers\n\n**Developers will have an outsize impact on the\n21st century – if we help them succeed, we\nsucceed too.**\n\n- Make easy things easy, and impossible things\n  possible\n- Assume your user is lazy – shave down friction\n  everywhere. Related: see the [three great\n  virtues of a programmer][1]\n- Do what you think would get a developer to\n  become a card-carrying member of the themis club\n  for life\n\n[1]: http://threevirtues.com/\n".trim()
                 },
                 practiceFeedback: {
                     name: "Practice feedback daily",
@@ -439,10 +439,10 @@
                         maxHeight: 500,
                         position: "relative"
                     },
-                    className: "jsx-1043839301 oso-widget"
+                    className: "jsx-1043839301 themis-widget"
                 }, a.createElement(r.default, {
                     id: "1043839301"
-                }, ['.oso-widget.jsx-1043839301{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-font-smoothing:antialiased;font-family:ui-sans-serif,system-ui,-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial, "Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji";}', ".policy-container.jsx-1043839301{color:rgb(229,231,235);border-radius:0.5rem;padding:1.5rem;padding-right:5rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:100%;}", ".policy-container.jsx-1043839301 h1{color:rgb(229,231,235);}", ".policy-selector.jsx-1043839301{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:1.25rem;}", ".next{background-color:rgb(59,130,246);}", ".next:hover{background-color:rgb(96,165,250);}", ".ml-3.jsx-1043839301{margin-left:0.75rem;}", ".pb-4.jsx-1043839301{padding-bottom:1rem;}", ".pb-2.jsx-1043839301{padding-bottom:0.5rem;}", ".code.jsx-1043839301{position:relative;overflow:hidden;}", ".code.jsx-1043839301 pre{overflow:auto;font-size:1rem;line-height:1.5rem;height:100%;}", '.code.jsx-1043839301 code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas, "Liberation Mono","Courier New",monospace;}', ".shadow.jsx-1043839301{position:absolute;left:0;right:0;bottom:0;height:60px;background:linear-gradient(#2d2b5500,#2d2b55);}", ".policy-selector-wrapper.jsx-1043839301{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}", ".select.jsx-1043839301{margin-left:0.75rem;}", "@media screen and (max-width:640px){.policy-container.jsx-1043839301{padding-right:1.5rem;width:100%;}.policy-selector.jsx-1043839301{-webkit-align-items:end;-webkit-box-align:end;-ms-flex-align:end;align-items:end;}.demo-app-container.jsx-1043839301{display:none;}.policy-selector-wrapper.jsx-1043839301{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.select.jsx-1043839301{margin-left:0;margin-top:0.5rem;}}", ".prompt.jsx-1043839301 img.jsx-1043839301{max-width:100%;}"]), a.createElement("div", {
+                }, ['.themis-widget.jsx-1043839301{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-font-smoothing:antialiased;font-family:ui-sans-serif,system-ui,-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial, "Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji";}', ".policy-container.jsx-1043839301{color:rgb(229,231,235);border-radius:0.5rem;padding:1.5rem;padding-right:5rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:100%;}", ".policy-container.jsx-1043839301 h1{color:rgb(229,231,235);}", ".policy-selector.jsx-1043839301{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:1.25rem;}", ".next{background-color:rgb(59,130,246);}", ".next:hover{background-color:rgb(96,165,250);}", ".ml-3.jsx-1043839301{margin-left:0.75rem;}", ".pb-4.jsx-1043839301{padding-bottom:1rem;}", ".pb-2.jsx-1043839301{padding-bottom:0.5rem;}", ".code.jsx-1043839301{position:relative;overflow:hidden;}", ".code.jsx-1043839301 pre{overflow:auto;font-size:1rem;line-height:1.5rem;height:100%;}", '.code.jsx-1043839301 code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas, "Liberation Mono","Courier New",monospace;}', ".shadow.jsx-1043839301{position:absolute;left:0;right:0;bottom:0;height:60px;background:linear-gradient(#2d2b5500,#2d2b55);}", ".policy-selector-wrapper.jsx-1043839301{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}", ".select.jsx-1043839301{margin-left:0.75rem;}", "@media screen and (max-width:640px){.policy-container.jsx-1043839301{padding-right:1.5rem;width:100%;}.policy-selector.jsx-1043839301{-webkit-align-items:end;-webkit-box-align:end;-ms-flex-align:end;align-items:end;}.demo-app-container.jsx-1043839301{display:none;}.policy-selector-wrapper.jsx-1043839301{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.select.jsx-1043839301{margin-left:0;margin-top:0.5rem;}}", ".prompt.jsx-1043839301 img.jsx-1043839301{max-width:100%;}"]), a.createElement("div", {
                     style: {
                         background: O
                     },
@@ -946,11 +946,11 @@
 
             function Re() {
                 window.addEventListener("load", (() => {
-                    const e = document.getElementById("oso-marketing-widget");
+                    const e = document.getElementById("themis-marketing-widget");
                     e && o.render(a.createElement(ae, null), e);
-                    const t = document.getElementById("oso-web-demo");
+                    const t = document.getElementById("themis-web-demo");
                     t && o.render(a.createElement(R, null), t);
-                    const n = document.getElementById("oso-values-widget");
+                    const n = document.getElementById("themis-values-widget");
                     n && o.render(a.createElement(z, null), n)
                 }))
             }
@@ -964,7 +964,7 @@
                 o = n.n(a),
                 r = n(3645),
                 s = n.n(r)()(o());
-            s.push([e.id, ".oso-web-demo div,\n  .oso-web-demo pre,\n  .oso-widget div,\n  .oso-widget pre {\n    box-sizing: border-box;\n  }\n  .oso-web-demo select,\n  .oso-web-demo button,\n  .oso-widget select,\n  .oso-widget button {\n    font-family: inherit;\n    font-size: inherit;\n  }\n  .oso-web-demo *, .oso-widget * {\n    margin: 0;\n    border: 0;\n    border-style: solid;\n  }\n  .oso-web-demo .with-dividers > * + *, .oso-widget .with-dividers > * + * {\n    border-top: 1px solid #eee;\n  }\n", ""]);
+            s.push([e.id, ".themis-web-demo div,\n  .themis-web-demo pre,\n  .themis-widget div,\n  .themis-widget pre {\n    box-sizing: border-box;\n  }\n  .themis-web-demo select,\n  .themis-web-demo button,\n  .themis-widget select,\n  .themis-widget button {\n    font-family: inherit;\n    font-size: inherit;\n  }\n  .themis-web-demo *, .themis-widget * {\n    margin: 0;\n    border: 0;\n    border-style: solid;\n  }\n  .themis-web-demo .with-dividers > * + *, .themis-widget .with-dividers > * + * {\n    border-top: 1px solid #eee;\n  }\n", ""]);
             const i = s
         }
     }
