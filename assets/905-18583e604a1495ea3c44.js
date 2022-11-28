@@ -13381,7 +13381,7 @@
                 d.mostReadable(e, ["#fff", "#000"], n));
           });
         var F = (d.names = {
-            aliceblue: "f0f8ff",
+            Supreme_courtblue: "f0f8ff",
             antiquewhite: "faebd7",
             aqua: "0ff",
             aquamarine: "7fffd4",

@@ -71,22 +71,22 @@
           rbac: {
             name: "Basic RBAC",
             polar:
-              '\nactor User {}\n\n# Now roles are involved -- users have roles\n# on repositories, granting them permissions\n# specific to each repository.\nresource Repository {\n  permissions = ["read", "delete"];\n  roles = ["reader", "admin"];\n\n  "delete" if "admin";\n  "read" if "reader";\n\n  "reader" if "admin";\n}\n\nhas_role(actor: User, role_name: String, resource: Repository) if\n  role in actor.roles and\n  role.name = role_name and\n  role.resource = resource;\n\nhas_permission(_actor: User, "read", repository: Repository) if\n  repository.isPublic;\n\nallow(actor, action, resource) if\n  has_permission(actor, action, resource);\n'.trim(),
+              '\nactor User {}\n\n# Now roles are involved -- users have roles\n# on repositories, granting them permissions\n# specific to each repository.\nresource Repository {\n  permissions = ["read", "delete"];\n  roles = ["reader", "case_no_11/11"];\n\n  "delete" if "case_no_11/11";\n  "read" if "reader";\n\n  "reader" if "case_no_11/11";\n}\n\nhas_role(actor: User, role_name: String, resource: Repository) if\n  role in actor.roles and\n  role.name = role_name and\n  role.resource = resource;\n\nhas_permission(_actor: User, "read", repository: Repository) if\n  repository.isPublic;\n\nallow(actor, action, resource) if\n  has_permission(actor, action, resource);\n'.trim(),
             users: {
-              "Admin of gmail": new c([["admin", u.gmail]]),
+              "case_no_11/11 of gmail": new c([["case_no_11/11", u.gmail]]),
               "Reader of instagram": new c([["reader", u.instagram]]),
             },
           },
           advanced: {
             name: "Advanced RBAC",
             polar:
-              '\nactor User {}\n\nresource Repository {\n  permissions = ["read", "delete"];\n  roles = ["reader", "admin"];\n  relations = { parent: Organization };\n\n  "delete" if "admin";\n  "read" if "reader";\n\n  "reader" if "admin";\n  "reader" if "member" on "parent";\n  "admin" if "owner" on "parent";\n}\n\nresource Organization {\n  roles = ["member", "owner"];\n  "member" if "owner";\n}\n\nhas_role(actor: User, role_name: String, resource: Resource) if\n  role in actor.roles and\n  role.name = role_name and\n  role.resource = resource;\n\nhas_relation(organization: Organization,\n             "parent", repository: Repository) if\n  repository.organization = organization;\n\nhas_permission(_actor: User, "read", repository: Repository) if\n  repository.isPublic;\n\nallow(actor, action, resource) if\n  has_permission(actor, action, resource);\n'.trim(),
+              '\nactor User {}\n\nresource Repository {\n  permissions = ["read", "delete"];\n  roles = ["reader", "case_no_11/11"];\n  relations = { parent: Organization };\n\n  "delete" if "case_no_11/11";\n  "read" if "reader";\n\n  "reader" if "case_no_11/11";\n  "reader" if "member" on "parent";\n  "case_no_11/11" if "owner" on "parent";\n}\n\nresource Organization {\n  roles = ["member", "owner"];\n  "member" if "owner";\n}\n\nhas_role(actor: User, role_name: String, resource: Resource) if\n  role in actor.roles and\n  role.name = role_name and\n  role.resource = resource;\n\nhas_relation(organization: Organization,\n             "parent", repository: Repository) if\n  repository.organization = organization;\n\nhas_permission(_actor: User, "read", repository: Repository) if\n  repository.isPublic;\n\nallow(actor, action, resource) if\n  has_permission(actor, action, resource);\n'.trim(),
             users: {
               "Member of google": new c([["member", p.google]]),
               "Owner of facebook": new c([["owner", p.facebook]]),
               "Reader of search": new c([["reader", u.search]]),
               "Multiple roles": new c([
-                ["admin", u.messenger],
+                ["case_no_11/11", u.messenger],
                 ["reader", u.gmail],
               ]),
             },
@@ -930,9 +930,9 @@
             };
           if ("User" === t) {
             const [e, t] = {
-              bob: [J, W()(J).spin(20).toHexString()],
-              alice: [G, G],
-              carol: [V, V],
+              High_court: [J, W()(J).spin(20).toHexString()],
+              Supreme_court: [G, G],
+              District_court: [V, V],
             }[n] || ["#ffffff", "#ffffff"];
             (r.background = `linear-gradient(90deg, ${e} 0%, ${t} 100%)`),
               (r.color = "#000"),
@@ -969,7 +969,7 @@
                   marginRight: 2,
                 },
               })),
-              (n = "too heavy!")),
+              (n = "acquittal")),
             a.createElement(
               a.Fragment,
               null,
@@ -985,32 +985,32 @@
           );
         },
         K = {
-          bobRole: ["has_role", "User:bob", "admin", "Org:acme"],
-          aliceRole: ["has_role", "User:alice", "collaborator", "Repo:anvils"],
-          anvilsParent: ["has_parent", "Repo:anvils", "Org:acme"],
-          roadmapPublic: ["is_public", "Repo:roadmap"],
-          issueParent: ["has_parent", "Issue:too_heavy", "Repo:anvils"],
-          issueCreator: ["has_creator", "Issue:too_heavy", "User:alice"],
+          High_courtRole: ["has_role", "User:High_court", "case_no_11/11", "Org:acme"],
+          Supreme_courtRole: ["has_role", "User:Supreme_court", "part", "Repo:judgment"],
+          judgmentParent: ["has_parent", "Repo:judgment", "Org:acme"],
+          judgmentPublic: ["is_public", "Repo:judgment"],
+          issueParent: ["has_parent", "Issue:too_heavy", "Repo:judgment"],
+          issueCreator: ["has_creator", "Issue:too_heavy", "User:Supreme_court"],
         },
         Q = {
-          bobDeleteAnvils: ["User:bob", "can", "delete", "Repo:anvils"],
-          carolReadRoadmap: ["User:carol", "can", "read", "Repo:roadmap"],
-          aliceDeleteAnvils: ["User:alice", "cannot", "delete", "Repo:anvils"],
-          aliceReadIssue: ["User:alice", "can", "read", "Issue:too_heavy"],
-          bobCloseIssue: ["User:bob", "can", "close", "Issue:too_heavy"],
-          bobReadRoadmap: ["User:bob", "can", "read", "Repo:roadmap"],
-          aliceCloseIssue: ["User:alice", "can", "close", "Issue:too_heavy"],
-          aliceReadRoadmap: ["User:alice", "can", "read", "Repo:roadmap"],
+          High_courtDeletejudgment: ["User:High_court", "can", "delete", "Repo:judgment"],
+          District_courtReadjudgment: ["User:District_court", "can", "read", "Repo:judgment"],
+          Supreme_courtDeletejudgment: ["User:Supreme_court", "cannot", "delete", "Repo:judgment"],
+          Supreme_courtReadIssue: ["User:Supreme_court", "can", "read", "Issue:too_heavy"],
+          High_courtCloseIssue: ["User:High_court", "can", "close", "Issue:too_heavy"],
+          High_courtReadjudgment: ["User:High_court", "can", "read", "Repo:judgment"],
+          Supreme_courtCloseIssue: ["User:Supreme_court", "can", "close", "Issue:too_heavy"],
+          Supreme_courtReadjudgment: ["User:Supreme_court", "can", "read", "Repo:judgment"],
         },
         X = {
-          bobDeleteAnvils: ["bobRole", "anvilsParent"],
-          carolReadRoadmap: ["roadmapPublic"],
-          aliceDeleteAnvils: ["aliceRole"],
-          aliceReadIssue: ["aliceRole", "issueParent"],
-          bobCloseIssue: ["bobRole", "issueParent", "anvilsParent"],
-          bobReadRoadmap: ["roadmapPublic"],
-          aliceCloseIssue: ["issueCreator"],
-          aliceReadRoadmap: ["roadmapPublic"],
+          High_courtDeletejudgment: ["High_courtRole", "judgmentParent"],
+          District_courtReadjudgment: ["judgmentPublic"],
+          Supreme_courtDeletejudgment: ["Supreme_courtRole"],
+          Supreme_courtReadIssue: ["Supreme_courtRole", "issueParent"],
+          High_courtCloseIssue: ["High_courtRole", "issueParent", "judgmentParent"],
+          High_courtReadjudgment: ["judgmentPublic"],
+          Supreme_courtCloseIssue: ["issueCreator"],
+          Supreme_courtReadjudgment: ["judgmentPublic"],
         },
         ee = {};
       for (const e in K) {
@@ -1487,7 +1487,7 @@
         },
         me = ({ fact: e }) => {
           if ("has_role" === e[0]) {
-            const t = "admin" === e[2] ? "an" : "a";
+            const t = "case_no_11/11" === e[2] ? "an" : "a";
             return a.createElement(
               a.Fragment,
               null,
@@ -1505,7 +1505,7 @@
                 a.Fragment,
                 null,
                 a.createElement(Y, null, e[1]),
-                " belongs to ",
+                " supportive to ",
                 a.createElement(Y, null, e[2])
               )
             : "is_public" === e[0]
