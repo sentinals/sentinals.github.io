@@ -2167,37 +2167,37 @@ figcaption {
   text-align: left;
 }
 
-.who-loves-themis-section {
+.who-loves-docketgo-section {
   position: relative;
   padding-top: 60px;
   padding-bottom: 96px;
   background-color: #fff;
 }
 
-.who-loves-themis-section.bg-primary-1 {
+.who-loves-docketgo-section.bg-primary-1 {
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
 }
 
-.who-loves-themis-section.bg-primary-1.blog-wide-header {
+.who-loves-docketgo-section.bg-primary-1.blog-wide-header {
   min-height: 716px;
   margin-bottom: -168px;
 }
 
-.who-loves-themis-section.bg-primary-1.low-margin {
+.who-loves-docketgo-section.bg-primary-1.low-margin {
   padding-bottom: 24px;
 }
 
-.who-loves-themis-section.bg-primary-1.how-themis-cloud-works {
+.who-loves-docketgo-section.bg-primary-1.how-docketgo-cloud-works {
   padding-top: 0px;
 }
 
-.who-loves-themis-section.bg-primary-1.big-padding {
+.who-loves-docketgo-section.bg-primary-1.big-padding {
   padding-top: 120px;
   padding-bottom: 180px;
 }
 
-.who-loves-themis-section.hero-section {
+.who-loves-docketgo-section.hero-section {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2215,25 +2215,25 @@ figcaption {
   justify-content: center;
 }
 
-.who-loves-themis-section.overlap-hero-section {
+.who-loves-docketgo-section.overlap-hero-section {
   z-index: 2;
   background-color: #141414;
 }
 
-.who-loves-themis-section.bg-primary-3 {
+.who-loves-docketgo-section.bg-primary-3 {
   height: auto;
   max-height: none;
 }
 
-.who-loves-themis-section.bg-primary-3.no-space-bottom {
+.who-loves-docketgo-section.bg-primary-3.no-space-bottom {
   padding-bottom: 0px;
 }
 
-.who-loves-themis-section.bg-primary-3.less-padding {
+.who-loves-docketgo-section.bg-primary-3.less-padding {
   padding-top: 35px;
 }
 
-.who-loves-themis-section.bg-primary-3.no-padding {
+.who-loves-docketgo-section.bg-primary-3.no-padding {
   display: -ms-grid;
   display: grid;
   height: 90vh;
@@ -2250,64 +2250,64 @@ figcaption {
   grid-template-rows: minmax(10px, 1fr) max-content;
 }
 
-.who-loves-themis-section.bg-primary-3.vh-90 {
+.who-loves-docketgo-section.bg-primary-3.vh-90 {
   height: 90vh;
 }
 
-.who-loves-themis-section.bg-primary-3.home-padding-48 {
+.who-loves-docketgo-section.bg-primary-3.home-padding-48 {
   padding-top: 48px;
 }
 
-.who-loves-themis-section.bg-gray-1.no-top-space {
+.who-loves-docketgo-section.bg-gray-1.no-top-space {
   padding-top: 0px;
 }
 
-.who-loves-themis-section.bg-gray-1.no-space-bottom {
+.who-loves-docketgo-section.bg-gray-1.no-space-bottom {
   padding-bottom: 0px;
 }
 
-.who-loves-themis-section.bg-gray-1.no-padding {
+.who-loves-docketgo-section.bg-gray-1.no-padding {
   padding-bottom: 0px;
 }
 
-.who-loves-themis-section.bg-gray-1.pricing {
+.who-loves-docketgo-section.bg-gray-1.pricing {
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-.who-loves-themis-section.section-small {
+.who-loves-docketgo-section.section-small {
   padding-top: 72px;
   padding-bottom: 72px;
 }
 
-.who-loves-themis-section.overflow-hidden {
+.who-loves-docketgo-section.overflow-hidden {
   overflow: hidden;
 }
 
-.who-loves-themis-section.horizontal-icons-section {
+.who-loves-docketgo-section.horizontal-icons-section {
   padding-top: 48px;
   padding-bottom: 48px;
 }
 
-.who-loves-themis-section.bg-transparent {
+.who-loves-docketgo-section.bg-transparent {
   background-color: transparent;
 }
 
-.who-loves-themis-section.bg-transparent.low-margin {
+.who-loves-docketgo-section.bg-transparent.low-margin {
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.who-loves-themis-section.no-bottom-space {
+.who-loves-docketgo-section.no-bottom-space {
   padding-top: 21px;
   padding-bottom: 0px;
 }
 
-.who-loves-themis-section.no-bottom-space.margin-top {
+.who-loves-docketgo-section.no-bottom-space.margin-top {
   margin-top: 39px;
 }
 
-.who-loves-themis-section.no-bottom-space.blue-gradient {
+.who-loves-docketgo-section.no-bottom-space.blue-gradient {
   background-color: #e3f6f5;
   background-image: -webkit-gradient(
     linear,
@@ -2329,85 +2329,85 @@ figcaption {
   );
 }
 
-.who-loves-themis-section.no-bottom-space.bg-primary-1 {
+.who-loves-docketgo-section.no-bottom-space.bg-primary-1 {
   padding-bottom: 21px;
 }
 
-.who-loves-themis-section.no-bottom-space.bg-primary-1.demo-section {
+.who-loves-docketgo-section.no-bottom-space.bg-primary-1.demo-section {
   padding-bottom: 0px;
 }
 
-.who-loves-themis-section.top-section {
+.who-loves-docketgo-section.top-section {
   z-index: 2;
 }
 
-.who-loves-themis-section.top-section.no-space-bottom {
+.who-loves-docketgo-section.top-section.no-space-bottom {
   padding-bottom: 0px;
 }
 
-.who-loves-themis-section.overlap-previous-section {
+.who-loves-docketgo-section.overlap-previous-section {
   margin-top: -48px;
   padding-top: 0px;
   background-color: transparent;
 }
 
-.who-loves-themis-section.next-section-overlapping {
+.who-loves-docketgo-section.next-section-overlapping {
   padding-bottom: 120px;
 }
 
-.who-loves-themis-section.no-space-top {
+.who-loves-docketgo-section.no-space-top {
   padding-top: 0px;
 }
 
-.who-loves-themis-section.extra-space-bottom {
+.who-loves-docketgo-section.extra-space-bottom {
   padding-bottom: 120px;
 }
 
-.who-loves-themis-section.case-study-header {
+.who-loves-docketgo-section.case-study-header {
   padding-bottom: 144px;
 }
 
-.who-loves-themis-section.blog-posts-section {
+.who-loves-docketgo-section.blog-posts-section {
   padding-top: 192px;
 }
 
-.who-loves-themis-section.overlap-next-section {
+.who-loves-docketgo-section.overlap-next-section {
   z-index: 1;
   margin-bottom: -48px;
   padding-bottom: 0px;
   background-color: transparent;
 }
 
-.who-loves-themis-section.previous-section-overlaps {
+.who-loves-docketgo-section.previous-section-overlaps {
   padding-top: 144px;
 }
 
-.who-loves-themis-section.help-center-header {
+.who-loves-docketgo-section.help-center-header {
   padding-bottom: 95px;
   background-color: #bae8e8;
 }
 
-.who-loves-themis-section.help-center-articles {
+.who-loves-docketgo-section.help-center-articles {
   padding-top: 0px;
   background-color: transparent;
 }
 
-.who-loves-themis-section.help-center-articles.authz-faq {
+.who-loves-docketgo-section.help-center-articles.authz-faq {
   margin-top: 20px;
 }
 
-.who-loves-themis-section.contact-us {
+.who-loves-docketgo-section.contact-us {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-.who-loves-themis-section.home-bottom {
+.who-loves-docketgo-section.home-bottom {
   margin-top: -30px;
   padding-top: 0px;
   padding-bottom: 70px;
 }
 
-.who-loves-themis-section.about-us {
+.who-loves-docketgo-section.about-us {
   padding-bottom: 0px;
 }
 
@@ -2473,7 +2473,7 @@ figcaption {
   margin-left: 40px;
 }
 
-.container.what-is-themis {
+.container.what-is-docketgo {
   margin-top: 0px;
 }
 
@@ -2481,7 +2481,7 @@ figcaption {
   margin-top: 0px;
 }
 
-.container.bg-gray-1.what-is-themis {
+.container.bg-gray-1.what-is-docketgo {
   margin-top: 60px;
 }
 
@@ -2501,7 +2501,7 @@ figcaption {
   background-color: #e3f6f5;
 }
 
-.container.what-themis-header {
+.container.what-docketgo-header {
   margin-bottom: -85px;
 }
 
@@ -2509,7 +2509,7 @@ figcaption {
   border-radius: 10px;
 }
 
-.container.themis-container {
+.container.docketgo-container {
   padding-top: 0px;
 }
 
@@ -3170,7 +3170,7 @@ figcaption {
   color: #fff;
 }
 
-.display-heading-2.what-is-themis {
+.display-heading-2.what-is-docketgo {
   margin-top: 40px;
 }
 
@@ -3178,17 +3178,17 @@ figcaption {
   color: #141414;
 }
 
-.display-heading-2.themis-cloud-heading {
+.display-heading-2.docketgo-cloud-heading {
   color: #fff;
   font-size: 45px;
   line-height: 45px;
 }
 
-.display-heading-2.themis-cloud-heading.cloud-cta {
+.display-heading-2.docketgo-cloud-heading.cloud-cta {
   margin-bottom: 0px;
 }
 
-.display-heading-2.themis-cloud {
+.display-heading-2.docketgo-cloud {
   margin-bottom: 20px;
   color: #fff;
   font-size: 36px;
@@ -3196,7 +3196,7 @@ figcaption {
   text-align: center;
 }
 
-.display-heading-2.themis-cloud.space-bottom {
+.display-heading-2.docketgo-cloud.space-bottom {
   margin-bottom: 50px;
 }
 
@@ -3313,7 +3313,7 @@ figcaption {
   text-align: center;
 }
 
-.large-text.whats-themis-large-text {
+.large-text.whats-docketgo-large-text {
   font-weight: 600;
 }
 
@@ -3434,7 +3434,7 @@ figcaption {
   background-color: #392396;
 }
 
-.button.button-large.bg-primary-4._1-on-1.what-is-themis {
+.button.button-large.bg-primary-4._1-on-1.what-is-docketgo {
   background-color: #ffd803;
 }
 
@@ -3485,7 +3485,7 @@ figcaption {
   background-color: transparent;
 }
 
-.button.button-large.try-themis-button {
+.button.button-large.try-docketgo-button {
   background-color: #392396;
 }
 
@@ -4449,7 +4449,7 @@ figcaption {
   margin-top: 20px;
 }
 
-.space-bottom.themis-pricing {
+.space-bottom.docketgo-pricing {
   margin-top: 0px;
 }
 
@@ -4743,7 +4743,7 @@ figcaption {
   background-color: #f8f8f8;
 }
 
-.page-contents.what-is-themis {
+.page-contents.what-is-docketgo {
   background-color: #141414;
 }
 
@@ -5519,7 +5519,7 @@ figcaption {
   margin-top: 0px;
 }
 
-.medium-heading.pricing-plan-term.themis-pricing {
+.medium-heading.pricing-plan-term.docketgo-pricing {
   margin-top: 40px;
 }
 
@@ -5704,7 +5704,7 @@ figcaption {
   grid-template-rows: auto;
 }
 
-.block-section.bg-primary-1.themis-cloud {
+.block-section.bg-primary-1.docketgo-cloud {
   margin-top: -75px;
 }
 
@@ -5736,11 +5736,11 @@ figcaption {
   padding-bottom: 96px;
 }
 
-.block-section-half.what-themis {
+.block-section-half.what-docketgo {
   margin-top: -60px;
 }
 
-.block-section-half.whats-themis {
+.block-section-half.whats-docketgo {
   margin-top: -60px;
 }
 
@@ -6372,12 +6372,12 @@ figcaption {
   grid-template-rows: auto auto;
 }
 
-.card-grid-quarters.themis-cloud-features {
+.card-grid-quarters.docketgo-cloud-features {
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.card-grid-quarters.themis-cloud-features.security-cards {
+.card-grid-quarters.docketgo-cloud-features.security-cards {
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
@@ -6391,7 +6391,7 @@ figcaption {
   grid-template-rows: auto auto auto;
 }
 
-.card-grid-quarters.themis-cloud-grid {
+.card-grid-quarters.docketgo-cloud-grid {
   margin-right: 60px;
   margin-bottom: 10px;
   margin-left: 60px;
@@ -7150,7 +7150,7 @@ figcaption {
   right: -24px;
 }
 
-.pricing-grid-themis {
+.pricing-grid-docketgo {
   display: -ms-grid;
   display: grid;
   margin-bottom: 96px;
@@ -7164,7 +7164,7 @@ figcaption {
   grid-template-rows: auto;
 }
 
-.pricing-grid-themis.pricing-grid {
+.pricing-grid-docketgo.pricing-grid {
   -webkit-box-align: end;
   -webkit-align-items: end;
   -ms-flex-align: end;
@@ -8118,7 +8118,7 @@ figcaption {
   padding-bottom: 0px;
 }
 
-.section-2.themis-cloud {
+.section-2.docketgo-cloud {
   background-color: transparent;
   color: #141414;
 }
@@ -8472,7 +8472,7 @@ figcaption {
   color: #fff;
 }
 
-.text-block-8._1-on-1.what-is-themis {
+.text-block-8._1-on-1.what-is-docketgo {
   color: #141414;
 }
 
@@ -8663,7 +8663,7 @@ figcaption {
   background-color: #392396;
 }
 
-.button-3.button-large.bg-primary-4._1-on-1.what-is-themis {
+.button-3.button-large.bg-primary-4._1-on-1.what-is-docketgo {
   background-color: #ffd803;
 }
 
@@ -8720,7 +8720,7 @@ figcaption {
   background-color: #392396;
 }
 
-.button-3.button-large.bg-primary-4._1-on-1.what-is-themis {
+.button-3.button-large.bg-primary-4._1-on-1.what-is-docketgo {
   background-color: #ffd803;
 }
 
@@ -8761,7 +8761,7 @@ figcaption {
   background-color: #392396;
 }
 
-.button-3.button-large.bg-primary-4._1-on-1.what-is-themis {
+.button-3.button-large.bg-primary-4._1-on-1.what-is-docketgo {
   background-color: #ffd803;
 }
 
@@ -8818,7 +8818,7 @@ figcaption {
   margin-top: 40px;
 }
 
-.center-text-2.small-text.themis-cloud {
+.center-text-2.small-text.docketgo-cloud {
   color: #fff;
 }
 
@@ -9176,15 +9176,15 @@ figcaption {
   color: #fff;
 }
 
-.text-block-10._1-on-1.what-is-themis {
+.text-block-10._1-on-1.what-is-docketgo {
   color: #141414;
 }
 
-.text-block-10._1-on-1.what-is-themis {
+.text-block-10._1-on-1.what-is-docketgo {
   color: #141414;
 }
 
-.text-block-10.themis-cloud {
+.text-block-10.docketgo-cloud {
   color: #fff;
 }
 
@@ -9394,7 +9394,7 @@ figcaption {
   line-height: 22px;
 }
 
-.small-text-2.themislove {
+.small-text-2.docketgolove {
   text-align: center;
 }
 
@@ -9472,7 +9472,7 @@ figcaption {
   background-color: #141414;
 }
 
-.section-5.themislove {
+.section-5.docketgolove {
   background-color: #bae8e8;
 }
 
@@ -9516,7 +9516,7 @@ figcaption {
   letter-spacing: -0.01em;
 }
 
-.large-text-3.themislove {
+.large-text-3.docketgolove {
   background-color: #e3f6f5;
 }
 
@@ -9544,7 +9544,7 @@ figcaption {
   object-fit: fill;
 }
 
-.container-6.themis {
+.container-6.docketgo {
   background-color: #bae8e8;
 }
 
@@ -9566,7 +9566,7 @@ figcaption {
   grid-template-rows: auto;
 }
 
-.pricing-grid-thirds-4.themislove {
+.pricing-grid-thirds-4.docketgolove {
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #bae8e8;
@@ -9753,7 +9753,7 @@ figcaption {
   font-size: 15px;
 }
 
-.who-loves-themis-card-body {
+.who-loves-docketgo-card-body {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9781,7 +9781,7 @@ figcaption {
   color: #141414;
 }
 
-.who-loves-themis-card-body.themislove {
+.who-loves-docketgo-card-body.docketgolove {
   background-color: #e3f6f5;
 }
 
@@ -9809,7 +9809,7 @@ figcaption {
   text-align: center;
 }
 
-.who-loves-themis-card-temp {
+.who-loves-docketgo-card-temp {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -9825,13 +9825,13 @@ figcaption {
   direction: ltr;
 }
 
-.who-loves-themis-card-temp.bg-primary-4 {
+.who-loves-docketgo-card-temp.bg-primary-4 {
   border-radius: 9px;
   background-color: #f8f8f8;
   color: #141414;
 }
 
-.who-loves-themis-card-temp.bg-primary-1 {
+.who-loves-docketgo-card-temp.bg-primary-1 {
   background-color: #f8f8f8;
 }
 
@@ -9975,7 +9975,7 @@ figcaption {
   margin-bottom: -140px;
 }
 
-.container-7.what-is-themis {
+.container-7.what-is-docketgo {
   margin-top: 0px;
 }
 
@@ -9987,7 +9987,7 @@ figcaption {
   margin-bottom: -60px;
 }
 
-.container-7.themis-cloud {
+.container-7.docketgo-cloud {
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -10012,7 +10012,7 @@ figcaption {
   text-align: center;
 }
 
-.feature-third-3.themis-cloud {
+.feature-third-3.docketgo-cloud {
   color: #fff;
 }
 
@@ -10056,7 +10056,7 @@ figcaption {
   text-align: left;
 }
 
-.list-vertical-2.whats-themis {
+.list-vertical-2.whats-docketgo {
   text-align: left;
 }
 
@@ -10070,7 +10070,7 @@ figcaption {
   letter-spacing: -0.01em;
 }
 
-.large-text-4.whats-themis {
+.large-text-4.whats-docketgo {
   margin-top: -15px;
   margin-right: 0px;
   margin-left: 0px;
@@ -10164,7 +10164,7 @@ figcaption {
   transition: opacity 200ms ease;
 }
 
-.section-6.bg-primary-1.whats-themis {
+.section-6.bg-primary-1.whats-docketgo {
   margin-bottom: -124px;
 }
 
@@ -10184,7 +10184,7 @@ figcaption {
   padding-bottom: 60px;
 }
 
-.section-6.themis-cloud {
+.section-6.docketgo-cloud {
   background-color: #392396;
 }
 
@@ -10238,7 +10238,7 @@ figcaption {
   color: #bae8e8;
 }
 
-.link-6.themis-cloud.w--current {
+.link-6.docketgo-cloud.w--current {
   color: #392396;
 }
 
@@ -10346,7 +10346,7 @@ figcaption {
   height: 230px;
   max-width: 95%;
   margin-bottom: 24px;
-  background-image: url("https://assets.website-files.com/5f148310b9588c295ed77f20/5f1638d4b891a812c792950b_Headshots%20-%20themis.jpg");
+  background-image: url("https://assets.website-files.com/5f148310b9588c295ed77f20/5f1638d4b891a812c792950b_Headshots%20-%20docketgo.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -10441,7 +10441,7 @@ figcaption {
 }
 
 .hover-class.rounded-corners.corey {
-  background-image: url("https://assets.website-files.com/5f148310b9588c295ed77f20/62cc66d2a97e694c0a65d9e4_themis-headshot.jpg");
+  background-image: url("https://assets.website-files.com/5f148310b9588c295ed77f20/62cc66d2a97e694c0a65d9e4_docketgo-headshot.jpg");
 }
 
 .hover-class.rounded-corners.jed {
@@ -10639,12 +10639,12 @@ figcaption {
   letter-spacing: -0.01em;
 }
 
-.large-text-6.whats-themis {
+.large-text-6.whats-docketgo {
   line-height: 28px;
   text-align: left;
 }
 
-.large-text-6.themis-cloud {
+.large-text-6.docketgo-cloud {
   color: #fff;
 }
 
@@ -10658,7 +10658,7 @@ figcaption {
   margin-top: 0px;
 }
 
-.large-text-6.themis-cloud-list {
+.large-text-6.docketgo-cloud-list {
   color: hsla(0, 0%, 100%, 0.81);
   font-size: 18px;
   text-align: left;
@@ -10690,7 +10690,7 @@ figcaption {
   list-style-type: decimal;
 }
 
-.list-item-3.themis-cloud-list {
+.list-item-3.docketgo-cloud-list {
   margin-bottom: 10px;
 }
 
@@ -10698,7 +10698,7 @@ figcaption {
   list-style-type: decimal;
 }
 
-.list-item-4.themis-cloud-list {
+.list-item-4.docketgo-cloud-list {
   margin-bottom: 10px;
 }
 
@@ -11247,7 +11247,7 @@ figcaption {
   list-style-type: decimal;
 }
 
-.themis-cloud-text {
+.docketgo-cloud-text {
   color: #fff;
   text-align: center;
 }
@@ -11885,7 +11885,7 @@ figcaption {
   line-height: 1.2em;
 }
 
-.homepage-section-heading.how-themis-cloud-works-section-header {
+.homepage-section-heading.how-docketgo-cloud-works-section-header {
   margin-bottom: 79px;
   text-align: center;
 }
@@ -11956,7 +11956,7 @@ figcaption {
   text-align: center;
 }
 
-.how-themis-cloud-works-number {
+.how-docketgo-cloud-works-number {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11981,19 +11981,19 @@ figcaption {
   font-size: 1.3em;
 }
 
-.how-themis-cloud-works-number.two {
+.how-docketgo-cloud-works-number.two {
   background-image: linear-gradient(92deg, #ffd803, #bae8e8);
 }
 
-.how-themis-cloud-works-number.one {
+.how-docketgo-cloud-works-number.one {
   background-image: linear-gradient(262deg, #c5bae8, #e3f6f5);
 }
 
-.how-themis-cloud-works-number.three {
+.how-docketgo-cloud-works-number.three {
   background-image: linear-gradient(262deg, #bae8e8, #ff9f1c);
 }
 
-.how-themis-cloud-works-number-container {
+.how-docketgo-cloud-works-number-container {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -12013,7 +12013,7 @@ figcaption {
   text-align: center;
 }
 
-.how-themis-cloud-works-heading {
+.how-docketgo-cloud-works-heading {
   margin-top: 12px;
   margin-bottom: 20px;
   font-size: 2.2em;
@@ -12021,7 +12021,7 @@ figcaption {
   text-align: center;
 }
 
-.how-themis-cloud-works-details {
+.how-docketgo-cloud-works-details {
   display: block;
   padding-right: 20px;
   -webkit-box-align: start;
@@ -12037,7 +12037,7 @@ figcaption {
   grid-template-rows: auto;
 }
 
-.how-themis-cloud-works-card {
+.how-docketgo-cloud-works-card {
   padding: 10px 18px;
   border-radius: 6px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -12053,18 +12053,18 @@ figcaption {
   grid-template-rows: auto;
 }
 
-.how-themis-cloud-works-block {
+.how-docketgo-cloud-works-block {
   max-width: 640px;
   margin-right: auto;
   margin-bottom: 72px;
   margin-left: auto;
 }
 
-.how-themis-cloud-works-image {
+.how-docketgo-cloud-works-image {
   margin-right: -60px;
 }
 
-.how-themis-cloud-works-section-header {
+.how-docketgo-cloud-works-section-header {
   margin-bottom: 60px;
   text-align: center;
 }
@@ -12118,7 +12118,7 @@ figcaption {
   margin-top: 1px;
 }
 
-.how-themis-cloud-works-number-line {
+.how-docketgo-cloud-works-number-line {
   position: absolute;
   left: 50%;
   top: -65px;
@@ -12158,13 +12158,13 @@ figcaption {
   font-weight: 400;
 }
 
-.who-loves-themis {
+.who-loves-docketgo {
   font-size: 2.7em;
   line-height: 1.2em;
   text-align: center;
 }
 
-.who-loves-themis.waylist {
+.who-loves-docketgo.waylist {
   max-height: 75px;
 }
 
@@ -12194,19 +12194,19 @@ figcaption {
   margin-left: auto;
 }
 
-.who-loves-themis-image {
+.who-loves-docketgo-image {
   max-height: 75px;
 }
 
-.who-loves-themis-image.loyal {
+.who-loves-docketgo-image.loyal {
   max-height: 75px;
 }
 
-.who-loves-themis-image.bjerk {
+.who-loves-docketgo-image.bjerk {
   max-height: 55px;
 }
 
-.who-loves-themis-image.clay {
+.who-loves-docketgo-image.clay {
   max-height: 65px;
 }
 
@@ -12476,7 +12476,7 @@ figcaption {
   line-height: 22px;
 }
 
-.small-quote-text.themislove {
+.small-quote-text.docketgolove {
   text-align: center;
 }
 
@@ -12495,7 +12495,7 @@ figcaption {
   text-align: center;
 }
 
-.who-loves-themis-text-block {
+.who-loves-docketgo-text-block {
   margin-top: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -12534,11 +12534,11 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
-  .who-loves-themis-section.hero-section.bg-primary-1 {
+  .who-loves-docketgo-section.hero-section.bg-primary-1 {
     min-height: 80vh;
   }
 
-  .who-loves-themis-section.extra-space-bottom {
+  .who-loves-docketgo-section.extra-space-bottom {
     padding-bottom: 96px;
   }
 
@@ -13185,7 +13185,7 @@ figcaption {
     right: -72px;
   }
 
-  .pricing-grid-themis {
+  .pricing-grid-docketgo {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
@@ -13483,7 +13483,7 @@ figcaption {
     max-width: 10%;
   }
 
-  .who-loves-themis-card-body {
+  .who-loves-docketgo-card-body {
     padding: 24px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
@@ -13660,26 +13660,26 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
-  .who-loves-themis-section {
+  .who-loves-docketgo-section {
     padding-top: 72px;
     padding-bottom: 72px;
   }
 
-  .who-loves-themis-section.bg-primary-1.blog-wide-header {
+  .who-loves-docketgo-section.bg-primary-1.blog-wide-header {
     min-height: auto;
     margin-bottom: 0vh;
   }
 
-  .who-loves-themis-section.hero-section {
+  .who-loves-docketgo-section.hero-section {
     overflow: hidden;
     min-height: 90vh;
   }
 
-  .who-loves-themis-section.extra-space-bottom {
+  .who-loves-docketgo-section.extra-space-bottom {
     padding-bottom: 72px;
   }
 
-  .who-loves-themis-section.blog-posts-section {
+  .who-loves-docketgo-section.blog-posts-section {
     padding-top: 120px;
   }
 
@@ -14207,7 +14207,7 @@ figcaption {
     grid-template-rows: auto auto;
   }
 
-  .card-grid-quarters.themis-cloud-features {
+  .card-grid-quarters.docketgo-cloud-features {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
@@ -14277,7 +14277,7 @@ figcaption {
     display: none;
   }
 
-  .pricing-grid-themis {
+  .pricing-grid-docketgo {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -14398,7 +14398,7 @@ figcaption {
     margin-left: 0px;
   }
 
-  .button-3.button-large.try-themis-cloud {
+  .button-3.button-large.try-docketgo-cloud {
     margin-left: 0px;
   }
 
@@ -14501,7 +14501,7 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
-  .pricing-grid-thirds-4.themislove {
+  .pricing-grid-thirds-4.docketgolove {
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -14559,7 +14559,7 @@ figcaption {
     max-width: 15%;
   }
 
-  .who-loves-themis-card-body {
+  .who-loves-docketgo-card-body {
     padding: 24px;
   }
 
@@ -14618,7 +14618,7 @@ figcaption {
     margin-top: 60px;
   }
 
-  .large-text-6.themis-cloud {
+  .large-text-6.docketgo-cloud {
     margin-right: 20px;
     margin-left: 20px;
   }
@@ -14758,7 +14758,7 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
-  .how-themis-cloud-works-image {
+  .how-docketgo-cloud-works-image {
     margin-right: 0px;
   }
 
@@ -14809,31 +14809,31 @@ figcaption {
     line-height: 32px;
   }
 
-  .who-loves-themis-section.hero-section.bg-primary-1 {
+  .who-loves-docketgo-section.hero-section.bg-primary-1 {
     max-height: 100vh;
     min-height: 90vh;
   }
 
-  .who-loves-themis-section.overlap-hero-section {
+  .who-loves-docketgo-section.overlap-hero-section {
     padding-top: 0px;
     padding-bottom: 36px;
   }
 
-  .who-loves-themis-section.bg-primary-3.no-padding {
+  .who-loves-docketgo-section.bg-primary-3.no-padding {
     -ms-grid-columns: auto;
     grid-template-columns: auto;
   }
 
-  .who-loves-themis-section.horizontal-icons-section {
+  .who-loves-docketgo-section.horizontal-icons-section {
     padding-top: 36px;
     padding-bottom: 36px;
   }
 
-  .who-loves-themis-section.next-section-overlapping {
+  .who-loves-docketgo-section.next-section-overlapping {
     padding-bottom: 96px;
   }
 
-  .who-loves-themis-section.previous-section-overlaps.bg-primary-1 {
+  .who-loves-docketgo-section.previous-section-overlaps.bg-primary-1 {
     padding-top: 120px;
   }
 
@@ -14982,7 +14982,7 @@ figcaption {
     margin-left: 0px;
   }
 
-  .button.button-large.try-themis-button {
+  .button.button-large.try-docketgo-button {
     padding-right: 39px;
     padding-left: 39px;
   }
@@ -15553,7 +15553,7 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
-  .card-grid-quarters.themis-cloud-features {
+  .card-grid-quarters.docketgo-cloud-features {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -15855,7 +15855,7 @@ figcaption {
     margin-left: 0px;
   }
 
-  .button-3.button-large.try-themis-cloud {
+  .button-3.button-large.try-docketgo-cloud {
     margin-left: 0px;
   }
 
@@ -15873,7 +15873,7 @@ figcaption {
     padding-bottom: 12px;
   }
 
-  .button-3.button-large.bg-primary-4.try-themis-cloud {
+  .button-3.button-large.bg-primary-4.try-docketgo-cloud {
     display: block;
   }
 
@@ -15967,7 +15967,7 @@ figcaption {
     margin-top: 0px;
   }
 
-  .text-block-10.themis-cloud {
+  .text-block-10.docketgo-cloud {
     text-align: center;
   }
 
@@ -16012,7 +16012,7 @@ figcaption {
     text-align: center;
   }
 
-  .large-text-3.themislove {
+  .large-text-3.docketgolove {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -16032,7 +16032,7 @@ figcaption {
     font-size: 20px;
   }
 
-  .pricing-grid-thirds-4.themislove {
+  .pricing-grid-thirds-4.docketgolove {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -16123,7 +16123,7 @@ figcaption {
     max-width: 25%;
   }
 
-  .who-loves-themis-card-body {
+  .who-loves-docketgo-card-body {
     padding: 18px;
   }
 
@@ -16171,7 +16171,7 @@ figcaption {
     line-height: 24px;
   }
 
-  .large-text-4.whats-themis {
+  .large-text-4.whats-docketgo {
     line-height: 25px;
   }
 
@@ -16230,11 +16230,11 @@ figcaption {
     line-height: 24px;
   }
 
-  .large-text-6.whats-themis {
+  .large-text-6.whats-docketgo {
     line-height: 25px;
   }
 
-  .large-text-6.themis-cloud {
+  .large-text-6.docketgo-cloud {
     margin-right: 5px;
     margin-left: 5px;
   }
@@ -16362,7 +16362,7 @@ figcaption {
     justify-content: flex-start;
   }
 
-  .how-themis-cloud-works-heading {
+  .how-docketgo-cloud-works-heading {
     font-size: 1.5em;
   }
 
@@ -16398,7 +16398,7 @@ figcaption {
   grid-row-end: span 1;
 }
 
-#themis-marketing-widget.w-node-_855e8c55-24b3-5e16-39a8-4e9634335a5e-11b274f3 {
+#docketgo-marketing-widget.w-node-_855e8c55-24b3-5e16-39a8-4e9634335a5e-11b274f3 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -17093,7 +17093,7 @@ figcaption {
     order: -9999;
   }
 
-  #themis-marketing-widget.w-node-_855e8c55-24b3-5e16-39a8-4e9634335a5e-11b274f3 {
+  #docketgo-marketing-widget.w-node-_855e8c55-24b3-5e16-39a8-4e9634335a5e-11b274f3 {
     -webkit-box-ordinal-group: -9998;
     -webkit-order: -9999;
     -ms-flex-order: -9999;
@@ -17435,7 +17435,7 @@ figcaption {
     justify-self: center;
   }
 
-  #try-themis-blog.w-node-_341e38d6-1909-5250-34d8-79820f8cbf83-bdb275c8 {
+  #try-docketgo-blog.w-node-_341e38d6-1909-5250-34d8-79820f8cbf83-bdb275c8 {
     -ms-grid-column-align: center;
     justify-self: center;
   }
@@ -17864,7 +17864,7 @@ figcaption {
     justify-self: center;
   }
 
-  #try-themis-blog.w-node-_341e38d6-1909-5250-34d8-79820f8cbf83-bdb275c8 {
+  #try-docketgo-blog.w-node-_341e38d6-1909-5250-34d8-79820f8cbf83-bdb275c8 {
     -ms-grid-column-align: center;
     justify-self: center;
   }
